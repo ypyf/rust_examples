@@ -7,7 +7,6 @@ fn main() {
     for arg in std::env::args().skip(1) {
         files.push(arg);
     }
-
     for file in &files {
         match count_lines(file) {
             Err(e) => println!("{}", e),

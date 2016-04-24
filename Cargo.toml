@@ -4,3 +4,8 @@ version = "0.1.0"
 authors = ["ypyf <t34@qq.com>"]
 
 [dependencies]
+num = "0.1.32"
+
+[[bin]]
+name = "并发"
+path = "src/concurrency.rs"
