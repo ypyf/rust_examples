@@ -7,5 +7,9 @@ authors = ["ypyf <t34@qq.com>"]
 num = "0.1.32"
 
 [[bin]]
-name = "并发"
+name = "lifetime"
+path = "src/lifetime.rs"
+
+[[bin]]
+name = "concurrency"
 path = "src/concurrency.rs"
