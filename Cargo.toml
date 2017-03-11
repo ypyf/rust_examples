@@ -4,12 +4,12 @@ version = "0.1.0"
 authors = ["ypyf <t34@qq.com>"]
 
 [dependencies]
-num = "0.1.32"
+num = "^0.1.32"
 
 [[bin]]
-name = "lifetime"
-path = "src/lifetime.rs"
+name = "count_lines"
+path = "src/count_lines.rs"
 
 [[bin]]
-name = "concurrency"
-path = "src/concurrency.rs"
+name = "gcd"
+path = "src/gcd.rs"
