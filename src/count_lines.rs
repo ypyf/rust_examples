@@ -16,9 +16,9 @@ fn main() {
 }
 
 fn count_lines(file_name: &str) -> Result<usize, io::Error> {
-    let mut f = try!(File::open(file_name));
+    let mut f = File::open(file_name).expect("打开文件失败");
     let mut s = String::new();
-    let mut count = 1;
+    let mut count = 0;
     try!(f.read_to_string(&mut s));
     for c in s.chars() {
         if c == '\n' {
