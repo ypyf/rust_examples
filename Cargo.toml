@@ -7,9 +7,21 @@ authors = ["ypyf <t34@qq.com>"]
 num = "^0.1.32"
 
 [[bin]]
+name = "print"
+path = "src/print.rs"
+
+[[bin]]
 name = "count_lines"
 path = "src/count_lines.rs"
 
 [[bin]]
 name = "gcd"
 path = "src/gcd.rs"
+
+[[bin]]
+name = "lifetimes"
+path = "src/lifetimes.rs"
+
+[[bin]]
+name = "sum"
+path = "src/sum.rs"
