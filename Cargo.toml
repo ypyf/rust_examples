@@ -7,8 +7,8 @@ authors = ["ypyf <t34@qq.com>"]
 num = "^0.1.32"
 
 [[bin]]
-name = "print"
-path = "src/print.rs"
+name = "circle"
+path = "src/circle.rs"
 
 [[bin]]
 name = "count_lines"
