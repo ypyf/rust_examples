@@ -1,5 +1,7 @@
-// 打印命令行参数，不包括程序名
+use std::f64::consts::PI;
+
 fn main() {
+    // 打印命令行参数，不包括程序名
     for arg in std::env::args().skip(1) {
         println!("{}", arg);
     }
@@ -34,12 +36,12 @@ impl Circle {
     }
 }
 
-trait Area {
+trait HasArea {
     fn area(&self) -> f64;
 }
 
-impl Area for Circle {
+impl HasArea for Circle {
     fn area(&self) -> f64 {
-        3.1415926 * self.radius * self.radius
+        PI * self.radius * self.radius
     }
 }
